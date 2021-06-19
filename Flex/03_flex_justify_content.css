@@ -11,9 +11,6 @@ body {
 
 section {
     display: flex;
-    flex-direction: row; /* wartość domyślna */
-    /* flex-direction: row-reverse; */
-    /* flex-direction: column-reverse; */
 }
 
 .square {
@@ -25,5 +22,5 @@ section {
     text-align: center;
     font-size: 50px;
     border: 3px solid black;
-    background: gold;
+    background:lime;
 }

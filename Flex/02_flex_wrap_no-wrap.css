@@ -11,9 +11,8 @@ body {
 
 section {
     display: flex;
-    flex-direction: row; /* wartość domyślna */
-    /* flex-direction: row-reverse; */
-    /* flex-direction: column-reverse; */
+    /* flex-wrap: nowrap; */ /* wartość domyslna*/
+    flex-wrap: wrap;
 }
 
 .square {
