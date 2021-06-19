@@ -11,6 +11,14 @@ body {
 
 section {
     display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */ /* wartośc domyślna*/
+    /* justify-content: flex-end;*/ /*przykleja do prawej krawędzi rodzica */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
 }
 
 .square {
